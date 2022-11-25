@@ -79,6 +79,7 @@ nav .openMenu {
     position: absolute;
     top: 3%;
     right: 2%;
+    list-style: none;
 }
 nav .mainMenu .closeMenu, .icons i {
     font-size: 2rem;
@@ -92,10 +93,6 @@ nav .mainMenu .closeMenu {
     position: absolute;
     top: 20px;
     right: 20px;
-}
-
-li {
-    list-style: none;
 }
   
 
