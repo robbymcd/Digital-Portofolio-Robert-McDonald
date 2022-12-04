@@ -2,7 +2,7 @@ const mainMenu = document.querySelector('.mainMenu');
 const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
 const menu_items = document.querySelectorAll('nav .mainMenu li a');
-const video = document.querySelector('.video');
+const video = document.querySelectorAll('.video');
 
 openMenu.addEventListener('click',show);
 closeMenu.addEventListener('click',close);
