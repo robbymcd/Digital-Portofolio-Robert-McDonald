@@ -5,7 +5,7 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    background-color: #222222;
+    background-color: #eef2ff;
 }
 
 .nav {
@@ -14,8 +14,8 @@ body {
     position: sticky;
     height: 80px;
     width: 100%;
-    background: rgb(2,0,36);
-    background-color: #121212;
+    background: #4f46e5;
+    background-color: #4f46e5;
     justify-content: center;
 }
 
@@ -23,14 +23,14 @@ body {
     font-family: 'Montserrat Alternates';
     align-self: center;
     font-size: 2rem;
-    color: #FFFFFF;
+    color: #eef2ff;
 }
 
 .content {
     align-self: center;
     height: 100%;
     width: 80%;
-    color: #FFFFFF;
+    color: #262467;
     margin-top: 2%;
 }
 
@@ -38,6 +38,7 @@ body {
     font-family: 'Frank Ruhl Libre';
     text-align: center;
     font-size: 4rem;
+    color: #262467;
 }
 
 .description {
@@ -55,7 +56,7 @@ nav .mainMenu {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #121212;
+    background: #4f46e5;
     transition: top 1s ease 0s;
     display: none;
     gap: 2rem;
@@ -64,18 +65,18 @@ nav .mainMenu {
     padding: 1rem;
     text-decoration: none;
     text-transform: uppercase;
-    color: rgb(255, 255, 255);
+    color: #eef2ff;
     font-size: 2rem;
     transition: 0.2s ease;
   }
   nav .mainMenu li a:hover {
-    background: #4E4E4E;
+    background: #4338ca;
   }
 nav .openMenu {
     font-size: 2rem;
     margin: 20px;
     cursor: pointer;
-    color: #FFFFFF;
+    color: #eef2ff;
     display: block;
     position: absolute;
     top: 3%;
@@ -88,7 +89,7 @@ nav .mainMenu .closeMenu, .icons i {
 }
 
 nav .mainMenu .closeMenu {
-    color: #FFFFFF;
+    color: #eef2ff;
     display: block;
     position: absolute;
     top: 20px;
@@ -104,7 +105,7 @@ li {
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    color: #FFFFFF;
+    color: #eef2ff;
     align-items: center;
 }
 
@@ -112,7 +113,7 @@ li {
 iframe {
     display: flex;
     border: none;
-    height: 80vh;
+    height: 70vh;
     width: 80vw;
 }
 
